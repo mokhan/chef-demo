@@ -21,5 +21,4 @@ template "/home/#{username}/.ssh/authorized_keys" do
   source "authorized_keys.erb"
   mode "0644"
   variables(keys: ssh['keys'])
-  notifies :restart, "service[nginx]"
 end
