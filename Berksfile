@@ -15,8 +15,6 @@ source 'http://api.berkshelf.com'
 cookbook 'chef-client'
 cookbook 'ntp'
 cookbook 'database'
-cookbook 'ruby_build'
-cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv'
 cookbook 'sudo'
 cookbook 'openssh'
 
